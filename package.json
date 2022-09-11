@@ -5,7 +5,7 @@
     "homepage": "/",
     "scripts": {
         "start": "run-p start:dev",
-        "start:dev": "webpack serve --config webpack.config.dev.js --port 55511",
+        "start:dev": "webpack serve --config webpack.config.dev.js --port 3000",
         "test": "jest --watch",
         "clean:build": "rimraf ./build && mkdir build",
         "prebuild": "run-p clean:build ",
